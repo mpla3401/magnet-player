@@ -120,7 +120,7 @@ function onTorrent(torrent) {
 	$streamedFileName.html(largestFile.name)
 
 	// Update clipboard share url
-	$('#share-url').val('https://ferrolho.github.io/magnet-player/#' + torrent.infoHash);
+	$('#share-url').val('https://mpla3401.github.io/magnet-player/#' + torrent.infoHash);
 
 	// Stream the file in the browser
 	largestFile.appendTo('#output')
