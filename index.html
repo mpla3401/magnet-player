@@ -1,38 +1,9 @@
 ---
 layout: default
 ---
-<form id="magnet-input">
-	<input name="torrentId" placeholder="magnet:"><button type="submit">Play</button>
-</form>
-
-<div id="hero">
-	<div id="output">
-		<div id="progressBar"></div>
-		<!-- The video player will be added here -->
-	</div>
-	<!-- Statistics -->
-	<div id="status">
-		<div>
-			<span class="show-leech">Downloading </span>
-			<span class="show-seed">Seeding </span>
-			<code id="streamedFileName"></code>
-			<span class="show-leech"> from </span>
-			<span class="show-seed"> to </span>
-			<code id="numPeers">0 peers</code>
-		</div>
-
-		<div>
-			<code id="downloaded"></code> of <code id="total"></code> - <span id="remaining"></span>
-		</div>
-
-		<div>
-			&#x2193; <code id="downloadSpeed">0 b/s</code> / <code id="uploadSpeed">0 b/s</code> &#x2191;
-		</div>
-
-		<div id="share-clipboard">
-			<p>Share this video:</p>
-			<input id="share-url" type="text" readonly><button id="share-url-btn" class="btn" type="button" data-toggle="tooltip" title="Copy to clipboard" data-clipboard-target="#share-url"><img class="clippy" src="{{ site.baseurl }}/assets/clippy.svg" alt="Copy to clipboard"></button>
-		</div>
-	</div>
+<div id="output">
+<div id="progressBar"></div>
 </div>
+		
+
 
