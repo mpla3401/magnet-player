@@ -1,5 +1,5 @@
 {
-  "name": "magnet-player",
+  "name": "player",
   "description": "Video streaming directly from your browser",
   "version": "1.0.0",
   "author": {
@@ -15,7 +15,7 @@
     "moment": "^2.15.0",
     "pretty-bytes": "^4.0.2"
   },
-  "homepage": "https://mplay3401.github.io/magnet-player/",
+  "homepage": "https://mplay3401.github.io/player/",
   "keywords": [
     "data channel",
     "file transfer",
