@@ -5,8 +5,12 @@
 	<meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/assets/thumbnail.png">
 	<link rel="icon" href="{{ site.baseurl }}/favicon.png" type="image/png">
 	<title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+	<link rel="stylesheet" href="/player/css/bootstrap.css">
 	<style>
-	body,html {border:0;margin:0;color:#fff;background:#000;overflow:hidden;width:100%;height:100%;}
-	#output, .page-content, .wrapper {position:absolute;top:0;left:0;width:100%;height:100%}
+	body,html{background-color:#000;color:#fff;margin:0 auto;padding:0;overflow:hidden;border:none}
+	#output video{border:none !important;width:100%;height:100%;position:absolute}
+	#progressBar{height:5px;width:0%;background-color:yellow;transition:width .4s ease-in-out}	
+	#streamedFileName{font-size:18px;position:absolute;top:15px;left:15px;color:#fff;display:inline;z-index:9999}
+	video:focus{outline:none;}
 	</style>
 </head>
